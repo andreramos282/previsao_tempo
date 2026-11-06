@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- O serviço XML do CPTEC/INPE é servido via HTTP; liberamos apenas este domínio. -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">servicos.cptec.inpe.br</domain>
+    </domain-config>
+</network-security-config>
